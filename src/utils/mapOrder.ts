@@ -1,6 +1,4 @@
 /**
- * Author: TrungQuanDev: https://youtube.com/@trungquandev
- * ---
  * /**
  * Order an array of objects based on another array & return new Ordered Array
  * If the key is not found in the orderArray, it will be placed at the end of the returned array.
@@ -18,7 +16,11 @@
  */
 
 // originalArray và orderArray mình để type any[] vì trong thực tế nó có thể là bất cứ kiểu dữ liệu nào.
-export const mapOrder = (originalArray: any[], orderArray: any[], key: string) => {
+export const mapOrder = (
+  originalArray: any[],
+  orderArray: any[],
+  key: string
+) => {
   if (!originalArray || !orderArray || !key) return []
   return [...originalArray].sort((a, b) => {
     const indexA = orderArray.indexOf(a[key])
