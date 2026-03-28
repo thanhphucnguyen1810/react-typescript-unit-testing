@@ -13,12 +13,12 @@ function App() {
       <h2>
         Hello World!&nbsp;
         <a href="https://youtube.com/@trungquandev" target='_blank'>
-          TrungQuanDev - Một Lập Trình Viên
+          BTS
         </a>
       </h2>
       <h2>
         <a href="https://youtube.com/@trungquandev" target='_blank'>
-          Unit Test: React + TypeScript + Jest - Chuyên nghiệp, nâng cao, như dự án thực tế.
+          Unit Test: React + TypeScript + Jest
         </a>
       </h2>
       <Button content="Click Me" />
