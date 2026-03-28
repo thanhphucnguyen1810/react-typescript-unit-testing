@@ -7,3 +7,4 @@ export const Button: React.FC<ButtonProps> = ({ content, ...rest }) => {
     <button {...rest}>{content}</button>
   )
 }
+
